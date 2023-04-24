@@ -60,7 +60,10 @@ nav ul li a{
 /* contenu */
 
 .intro{
-    margin-top: 50px;
+    margin-top: 50px;   
+}
+.intro h2,p{
+    z-index: 999;
 }
 .btn-rdv{
     background-color: #111!important;
@@ -79,7 +82,6 @@ nav ul li a{
 .intro h2{
     font-size: 65px;
     line-height: 76px;
-    width: 650px;
     margin-bottom: 50px;
 }
 .intro span{
@@ -87,7 +89,7 @@ nav ul li a{
 }
 
 .intro p {
-    width: 500px;
+
     margin-bottom: 50px;
     font-size: 20px;
 }
@@ -101,40 +103,38 @@ nav ul li a{
 .product{
     margin-top: 100px;
 }
+/* séparation */
 
+.separation{
+    padding: 0!important;
+    margin-right: 0!important;
+}
 .title-product h2{
     background-color: #B9FF66;
     color: black;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     border-radius: 15px 15px 15px 15px!important;
-    margin-right: 30px;
 }
 .sous-title p{
-    width: 500px;
     margin-top: 30px;
     font-size: 17px;
 }
 
 .card-center{
-    margin-left: 300px;
     margin-top: 50px;
 }
-@media only screen and (max-width: 600px) {
-    .card-center {
-        margin-left: 50px;
-    }
-  }
 
 .product-card{
-    width: 600px!important;
+    width: 500px;
     height: 310px;
     background-color:#F3F3F3 ;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px #191A23;
     border-radius: 45px;
     margin-bottom: 50px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .product-card h3{
     width: 200px;
@@ -168,7 +168,7 @@ width: 150px;
 .product-end{
     background-color: #F3F3F3;
     border-radius: 45px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -182,19 +182,12 @@ width: 150px;
 }
 
 .product-end p{
-    width: 400px;
     font-size: 20px;
 }
 .product-end img{
   z-index: 999;
   scale: 1.1;
 }
-
-@media only screen and (max-width: 600px) {
-    .product-end{
-        margin: auto;
-    }
-  }
 
   /* exemple */
 
@@ -214,10 +207,47 @@ width: 150px;
     background-color: #191A23;
     color: #FFFFFF;
     border-radius: 45px;
-    height: 350px;
     font-size: 18px;
 }
 
 .exemple-avis{
     padding: 70px;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 1200px){
+    .product-card img{
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card-center {
+        margin-left: 0px;
+    }
+    .title-product h2{
+        text-align: center;
+    }
+    .product-card img{
+        margin-left: 90px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .product-end{
+        margin: auto;
+    }
+    .product-card img{
+        margin-left: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    p {
+        font-size: 12px;
+    }
+    .product-card img{
+        margin-left: 10px;
+    }
+  }
