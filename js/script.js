@@ -33,3 +33,10 @@ $(document).ready(function(){
       ]
     });
   });
+
+
+// Materialaz
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
