@@ -125,7 +125,7 @@ nav ul li a{
 }
 
 .card-project{
-    display: flex;
+      display: flex;
     flex-wrap: wrap;
     list-style: none;
     gap: 50px;
