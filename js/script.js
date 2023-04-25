@@ -43,7 +43,7 @@ $(document).ready(function(){
         {
           breakpoint: 1100,
           settings: {
-            arrows: false,
+            arrows: true,
             centerMode: true,
             slidesToShow: 1,
             slidesToScroll: 1

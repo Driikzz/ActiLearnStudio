@@ -220,6 +220,9 @@ width: 150px;
     .product-card img{
         margin-left: 110px;
     }
+    form input{
+        width: 70%!important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -231,6 +234,12 @@ width: 150px;
     }
     .product-card img{
         margin-left: 90px;
+    }
+    form{
+        margin-left: 0px!important;
+    }
+    form input{
+        width: 50%!important;
     }
   }
 
@@ -245,6 +254,12 @@ width: 150px;
         padding: 0;
         color: #F3F3F3;
     }
+    form{
+        margin-left: 0px!important;
+    }
+    form input{
+        width: 70%!important;
+    }
    
   }
 
@@ -254,6 +269,12 @@ width: 150px;
     }
     .product-card img{
         margin-left: 10px;
+    }
+    form{
+        margin-left: 0px!important;
+    }
+    form input{
+        width: 60%!important;
     }
   }
 
@@ -314,6 +335,7 @@ width: 150px;
 
 .flex{
     display: flex;
+    
     justify-content: center;
 }
 
@@ -383,3 +405,73 @@ width: 150px;
 .radio-flex{
     display: flex;
 }
+
+/* Contact */
+
+.form-example input,textarea{
+    background: #FFFFFF!important;
+    padding: 10px!important;
+    border: 1px solid #000000!important;
+    border-radius: 14px!important;
+    margin-bottom: 25px!important;
+}
+
+.contact-form{
+    background-color: #F3F3F3;
+    border-radius: 45px;
+}
+form{
+    margin-left: 100px;
+}
+
+
+.img-contact img{
+    scale: 1.1;
+}
+/* footer */
+.footer{
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    background-color: #191A23;
+    color: #969494;
+}
+
+.footer h1{
+    font-size: 30px;
+    color: #F3F3F3;
+}
+.footer h2{
+    font-size: 25px;
+    color: #111;
+    padding: 10px;
+}
+.footer h4{
+    font-size: 20px;
+    color: #F3F3F3;
+}
+.privacy {
+    margin-top: 25px;
+}
+
+.footer a{
+    color: #969494;
+    text-decoration: underline;
+}
+
+.footer li{
+    margin-top: 25px;
+}
+
+.footer form{
+    background-color:#292A32 ;
+    border-radius: 25px;
+}
+
+.footer input{
+    margin-top: 30px!important;
+    margin-left: 50px!important;
+    margin-right: 10px!important;
+    background-color: #191A23!important;
+}
+
+
