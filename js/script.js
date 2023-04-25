@@ -31,6 +31,47 @@ $(document).ready(function(){
         }
 
       ]
+      
+    });
+
+    $('.carousel-center').slick({
+      centerMode: true,
+      centerPadding: '50px',
+      slidesToShow: 2,
+      arrows: true,
+      responsive: [
+        {
+          breakpoint: 1100,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '10px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+          
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '1px',
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+          
+        }
+      ]
     });
   });
 
