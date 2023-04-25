@@ -47,13 +47,15 @@ header h1{
     border: 1px solid black;
     box-shadow: none;
     height: 70px;
-    font-size: 15px!important;
+    font-size: 14px!important;
     margin-right: 0px!important;
     margin-left: 5px!important;
+    margin-top: 25px!important;
 }
 
 nav ul li a{
-    font-size: 18px;
+    margin-left: 0px!important;
+    font-size: 16px;
     color:black!important;
 }
 
@@ -122,8 +124,15 @@ nav ul li a{
     font-size: 17px;
 }
 
-.card-center{
-    margin-top: 50px;
+.card-project{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+
 }
 
 .product-card{
@@ -222,6 +231,9 @@ width: 150px;
     }
     form input{
         width: 70%!important;
+    }
+    .btn-devis{
+        display: none!important;
     }
 }
 
