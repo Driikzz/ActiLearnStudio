@@ -38,6 +38,10 @@ nav{
 #side-menu i{
     margin-top: 30px!important;
 }
+.main-title a{
+    text-decoration: none;
+    color: #111;
+}
 
 nav a{
     margin-top: 25px!important;
@@ -84,6 +88,7 @@ nav ul li a{
     font-size: 15px!important;
     line-height: 64px;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 .btn-rdv:hover{
     filter: brightness(150%);
@@ -118,6 +123,8 @@ nav ul li a{
 .separation{
     padding: 0!important;
     margin-right: 0!important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
 }
 .title-product h2{
     background-color: #B9FF66;
@@ -465,7 +472,7 @@ form{
     padding: 10px;
 }
 .footer h4{
-    font-size: 20px;
+    font-size: 15px;
     color: #F3F3F3;
 }
 .privacy {
@@ -493,4 +500,41 @@ form{
     background-color: #191A23!important;
 }
 
+/* PRODUCT PAGE */
+
+.product-par{
+    margin-top: 100PX;
+}
+.product-par h2 span{
+    color: #B9FF66;
+}
+.product-par h2{
+    font-weight: bold;
+}
+
+.p-product h2{
+    width: 500px; 
+    font-size: 40px;
+}
+
+/* PAGE WILDEXPLORE */
+
+.flex-stars{
+    display: flex;
+    gap: 20px;
+}
+.flex-star{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.propos{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-propos{
+    margin-bottom: 150px;
+}
 
