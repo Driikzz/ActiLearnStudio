@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 /* body */
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     font-family: 'Space Grotesk', sans-serif;
