@@ -4,6 +4,7 @@ $(document).ready(function(){
       slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
+      infinite: true,
       autoplaySpeed: 1000,
       arrows: false,
       responsive: [
@@ -80,4 +81,5 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.collapsible').collapsible();
+  $('.sidenav').sidenav();
 });
