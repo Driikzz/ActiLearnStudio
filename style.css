@@ -404,6 +404,14 @@ width: 150px;
     padding: 0;
 }
 
+.card-body p {
+    padding: 10px!important;
+}
+
+.card-team a img{
+    padding: 10px!important;
+}
+
 /* temoignages */
 
 .temoignages-background-color{
