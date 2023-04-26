@@ -37,6 +37,7 @@ nav{
 }
 #side-menu i{
     margin-top: 30px!important;
+    margin-left: 60px!important;
 }
 .main-title a{
     text-decoration: none;
@@ -286,6 +287,9 @@ width: 150px;
     form input{
         width: 70%!important;
     }
+    #side-menu i{
+        margin-left: 10px!important;
+    }
    
   }
 
@@ -301,6 +305,9 @@ width: 150px;
     }
     form input{
         width: 60%!important;
+    }
+    #side-menu i{
+        margin-left: 10px!important;
     }
   }
 
